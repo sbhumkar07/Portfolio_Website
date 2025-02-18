@@ -7,7 +7,6 @@ This repository hosts the source code for my **Personal Portfolio Website**, a p
 ## Live Demo
 
 The website is live and accessible at:  
-[**prachinavale-portfolio.netlify.app**](https://prachinavale-portfolio.netlify.app/)
 
 ---
 
