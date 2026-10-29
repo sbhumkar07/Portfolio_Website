@@ -26,13 +26,13 @@ const Experience = () => {
                 <p className="mb-2 text-sm text-neutral-400">
                   {experience.year}
                 </p>
-                <img
+                {experience.logo && <img
                   src={experience.logo}
                   width={80}
                   height={80}
                   className="mt-5 mb-5"
-                  alt={experience.university}
-                />
+                  alt={`${experience.company} logo`}
+                />}
               </motion.div>
               <motion.div
                 whileInView={{ x: 0, opacity: 1 }}

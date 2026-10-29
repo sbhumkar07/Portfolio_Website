@@ -12,8 +12,9 @@ const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = [
-    "Software Engineer",
-    "Data Enthusiast",
+    "AI Full-Stack Engineer",
+    "Generative AI Engineer",
+    "Java & Python Developer",
   ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(200 - Math.random() * 50);
@@ -72,7 +73,7 @@ const Hero = () => {
                 initial="hidden"
                 animate="visible"
                 className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
-                style={{ height: "40px", display: "inline-block" }}
+                style={{ minHeight: "88px", display: "inline-block" }}
               >
                 {text}
               </motion.span>
@@ -85,12 +86,12 @@ const Hero = () => {
                 {HERO_CONTENT}
               </motion.p>
               <a
-                href="https://drive.google.com/file/d/1CRpJ6IvW-S5iT_ZnlPMcRG5EgobsMUgN/view?usp=sharing"
+                href="https://www.linkedin.com/in/sarvesh-bhumkar/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className="px-4 py-2 mt-4 text-white bg-purple-500 rounded hover:bg-purple-700">
-                  View or Download Resume
+                  View LinkedIn Profile
                 </button>
               </a>
             </div>

@@ -57,9 +57,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <button className="block mt-8 text-sm text-blue-500 bg-transparent border-2 border-blue-500 rounded-full px-6 py-2 hover:bg-blue-500 hover:text-white transition-colors duration-300">
-                    Click to view the project
-                  </button>
+                 
                 </a>
               </motion.div>
             </div>

@@ -1,5 +1,5 @@
 import { CONTACT } from "../../constants";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -49,15 +49,8 @@ const Contact = () => {
         <div className="my-10 flex items-center justify-center">
           <div className="flex space-x-4">
   
-            <a
-              href="https://www.instagram.com/b_sarvesh07/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaInstagram
-                className="text-pink-500 hover:text-pink-700 transition-colors duration-300"
-                size={30}
-              />
+            <a href="https://github.com/sbhumkar07" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <FaGithub className="text-neutral-200 hover:text-purple-400 transition-colors duration-300" size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/sarvesh-bhumkar/"
